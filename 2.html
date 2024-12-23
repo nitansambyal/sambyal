@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Time Table</title>
+    <style>
+        body{
+            font-family:arial,Arial, Helvetica, sans-serif;
+            background-color:aquamarine;
+            margin:0;
+            padding:0;
+        }
+        h1{
+            text-align:center;
+        }
+        table{
+            border-collapse:collapse;
+            margin: 20px auto;
+            background-color:#fff;
+            border:3px solid black;
+        }
+        th,
+        td{
+            border:1px solid black;
+            padding: 8px;
+            text-align:center;
+            color:#000000;
+        }
+        th{
+            background-color:whitesmoke;
+            border-color:darkslateblue;
+        }
+        .highlight{
+            color:#EB5406;
+            background-color:yellowgreen;
+        }
+        .special{
+            color:#e30909;
+            background-color:lightcyan;
+        }
+    </style>
+</head>
+
+<body>
+    <h1> Time Table</h1>
+    <table>
+    <tr>
+        <th> DAY/TIME</th>
+        <th>9:00Am <br>To <br>10:00Am</th>
+        <th>10:00Am<br>To <br>11:00Am</th>
+        <th>11:00Am <br>To <br>11:15Am</th>
+        <th>11:15Am <br>To <br>12:15Pm</th>
+        <th>12:15Pm <br>To <br>01:15Pm</th>
+        <th>01:15Pm <br>To <br>02:15Pm</th>
+        <th>02:15Pm <br>To <br>03:15Pm</th>
+        <th>03:15Pm <br>To <br>04:15Pm</th>
+        <th>04:30Pm <br>To <br>05:30Pm</th>
+    </tr>
+
+    <tr>
+        <th>MON</th>
+        <td colspan="5" class="special"><b>AICTE Activities</b></td>
+        <td rowspan="6">L<br>U<br>N<br>C<br>H</td>
+        <td colspan="3"></td>
+    </tr>
+
+    <tr>
+        <th>TUE</th>
+        <td colspan="2" class="highlight">WTL LAB B2 BATCH/CN LAB B1 BATCH </td>
+        <td rowspan="5">B<br>R<br>E<br>A<br>K</td>
+        <td>RM</td>
+        <td>SE</td>
+        <td>AI</td>
+        <td>AI</td>
+        <td>TOC</td>
+    </tr>
+    <tr>
+        <th>WED</th>
+        <td>RM</td>
+        <td>CN</td>
+        <td>SE</td>
+        <td>EvS</td>
+        <td>AI</td>
+        <td colspan="2" class="highlight">CN lab B2 Batch/WTL Lab B1 Batch</td>
+    </tr>
+
+    <tr>
+        <th>THU</th>
+        <td></td>
+        <td>Ai</td>
+        <td>TOC</td>
+        <td>Cn</td>
+        <td colspan="3"></td>
+    </tr>
+
+    <tr>
+        <th>FRI</th>
+        <td>TOC</td>
+        <td>SE</td>
+        <td colspan="2" class="highlight">Mini Project Lab For B1 and B2 Batch</td>
+        <td>RM</td>
+        <td>CN</td>
+        <td>YOGA</td>
+    </tr>
+
+    <tr>
+        <th>SAT</th>
+        <td>SE</td>
+        <td>AI</td>
+        <td>TOC</td>
+        <td>CN</td>
+        <td colspan="3"></td>
+    </tr>
+</table>
+</body>
+</html>
